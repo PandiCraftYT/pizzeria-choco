@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Precios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+  <div class="container">
+
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <i class="bi bi-fire"></i>
+      <span class="fw-bold">Pizzería Choco</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="bi bi-house-door"></i> Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html"><i class="bi bi-journal-text"></i> Menú</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="precios.html"><i class="bi bi-table"></i> Precios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html"><i class="bi bi-telephone"></i> Contacto</a>
+        </li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-pizza" href="contacto.html"><i class="bi bi-bag-check"></i> Ordenar</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container mt-5 pt-5">
+  <div class="text-center mb-4">
+    <h1 class="fw-bold mb-2">Lista de Precios</h1>
+    <p class="text-muted mb-0">
+      Precios base para referencia. Para menú completo y actualizado, consulta el QR en la página de Menú.
+    </p>
+  </div>
+
+  <div class="card shadow-sm border-0 mb-4">
+    <div class="card-body p-4">
+      <div class="d-flex justify-content-between align-items-end flex-wrap gap-2 mb-3">
+        <div>
+          <h2 class="fw-bold mb-0">Pizzas</h2>
+          <div class="text-muted">Tamaños: Chica / Mediana / Grande</div>
+        </div>
+        <span class="badge text-bg-warning"><i class="bi bi-info-circle"></i> Precios base</span>
+      </div>
+
+      <div class="table-responsive rounded-3 border">
+        <table class="table table-striped align-middle text-center mb-0">
+          <thead class="table-dark">
+            <tr>
+              <th>Pizza</th>
+              <th>Ingredientes</th>
+              <th>Chica</th>
+              <th>Mediana</th>
+              <th>Grande</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="fw-semibold">Pepperoni</td>
+              <td>Salsa, mozzarella y pepperoni</td>
+              <td>$75</td>
+              <td class="fw-bold">$89</td>
+              <td>$129</td>
+            </tr>
+            <tr>
+              <td class="fw-semibold">Hawaiana</td>
+              <td>Jamón, piña y mozzarella</td>
+              <td>$80</td>
+              <td class="fw-bold">$97</td>
+              <td>$139</td>
+            </tr>
+            <tr>
+              <td class="fw-semibold">4 Quesos</td>
+              <td>Mezcla de quesos seleccionados</td>
+              <td>$95</td>
+              <td class="fw-bold">$120</td>
+              <td>$155</td>
+            </tr>
+            <tr>
+              <td class="fw-semibold">Mexicana</td>
+              <td>Chorizo, jalapeño, cebolla y queso</td>
+              <td>$90</td>
+              <td class="fw-bold">$115</td>
+              <td>$150</td>
+            </tr>
+            <tr>
+              <td class="fw-semibold">BBQ Pollo</td>
+              <td>Pollo, salsa BBQ, cebolla y queso</td>
+              <td>$92</td>
+              <td class="fw-bold">$118</td>
+              <td>$158</td>
+            </tr>
+            <tr>
+              <td class="fw-semibold">Vegetariana</td>
+              <td>Champiñones, pimiento, cebolla, aceitunas</td>
+              <td>$85</td>
+              <td class="fw-bold">$105</td>
+              <td>$145</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="small text-muted mt-3">
+        <i class="bi bi-exclamation-triangle"></i> Precios sujetos a cambio según disponibilidad.
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-4">
+
+    <div class="col-12 col-lg-6">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body p-4">
+          <h3 class="fw-bold mb-3"><i class="bi bi-plus-circle"></i> Extras</h3>
+
+          <div class="table-responsive rounded-3 border">
+            <table class="table table-hover align-middle mb-0">
+              <thead class="table-dark">
+                <tr>
+                  <th>Extra</th>
+                  <th class="text-end">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Extra queso</td><td class="text-end fw-bold">$20</td></tr>
+                <tr><td>Orilla de queso</td><td class="text-end fw-bold">$25</td></tr>
+                <tr><td>Champiñones</td><td class="text-end fw-bold">$15</td></tr>
+                <tr><td>Jalapeño</td><td class="text-end fw-bold">$10</td></tr>
+                <tr><td>Peperoni extra</td><td class="text-end fw-bold">$18</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body p-4">
+          <h3 class="fw-bold mb-3"><i class="bi bi-cup-straw"></i> Bebidas</h3>
+
+          <div class="table-responsive rounded-3 border">
+            <table class="table table-hover align-middle mb-0">
+              <thead class="table-dark">
+                <tr>
+                  <th>Bebida</th>
+                  <th class="text-end">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Refresco 600ml</td><td class="text-end fw-bold">$25</td></tr>
+                <tr><td>Refresco 2L</td><td class="text-end fw-bold">$45</td></tr>
+                <tr><td>Agua natural</td><td class="text-end fw-bold">$15</td></tr>
+                <tr><td>Agua sabor</td><td class="text-end fw-bold">$20</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="text-center my-5">
+    <a class="btn btn-pizza btn-lg" href="contacto.html">
+      <i class="bi bi-bag-check"></i> Hacer pedido
+    </a>
+    <div class="text-muted small mt-2">
+      ¿Quieres ver el menú completo? Ve a <a href="menu.html">Menú</a> y escanea el QR.
+    </div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

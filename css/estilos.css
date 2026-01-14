@@ -1,0 +1,51 @@
+:root{
+  --pizza-red:#b11226;
+  --pizza-yellow:#f4b400;
+  --pizza-dark:#111;
+  --pizza-bg:#fdf4ea;
+}
+
+body{
+  padding-top: 72px; 
+  background: var(--pizza-bg);
+}
+
+.btn-pizza{
+  background-color: var(--pizza-red);
+  border-color: var(--pizza-red);
+  color: #fff;
+  font-weight: 700;
+  padding: .5rem 1rem;
+  border-radius: .75rem;
+}
+.btn-pizza:hover{
+  background-color: #8f0f1f;
+  border-color: #8f0f1f;
+  color:#fff;
+}
+
+.navbar .nav-link{
+  opacity: .9;
+}
+.navbar .nav-link:hover{
+  opacity: 1;
+  color: var(--pizza-yellow);
+}
+
+.carousel-inner img{
+  height: 420px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px){
+  .carousel-inner img{
+    height: 260px;
+  }
+}
+
+.card{
+  border-radius: 1rem;
+}
+.rounded-3{
+  border-radius: 1rem !important;
+}
